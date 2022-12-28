@@ -11,5 +11,8 @@
     "style-compiler"
   ],
   "author": "xiehaihong",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "style-compiler-for-uniapp": "^1.0.10"
+  }
 }

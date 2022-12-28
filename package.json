@@ -1,0 +1,15 @@
+{
+  "name": "style-compiler-for-uniapp",
+  "version": "1.0.10",
+  "description": "uniapp的样式编绎器",
+  "main": "index.js",
+  "bin": {
+    "run": "./bin/run.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "style-compiler"
+  ],
+  "author": "xiehaihong",
+  "license": "MIT"
+}

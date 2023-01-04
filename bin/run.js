@@ -8,7 +8,7 @@ commonClzExec(cwd, dirName);
 // 2. 生成原子样式
 const atomConfs = require(`${cwd}/${dirName}`);
 const AtomCompiler = require('../lib/compile-atom/constructor-compile-atom');
-const ac = new AtomCompiler(atomConfs.theme, cwd, dirName);
+const ac = new AtomCompiler(atomConfs.theme, atomConfs.isMutilTheme, cwd, dirName);
 
 atomConfs.list.forEach(item=>{
     ac.addAtom(item)

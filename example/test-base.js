@@ -29,7 +29,7 @@
  */
 const conf = {
   theme: 'ui',
-  isMutilTheme:false,
+  isMutilTheme: false,
   list: [],
 };
 
@@ -212,11 +212,8 @@ conf.list.push({
 conf.list.push({
   type: 'shadow',
   summary: '阴影颜色',
-  items: [
-    { key: 'default', value: 'xxxxxxxx' },
-  ],
+  items: [{ key: 'default', value: 'xxxxxxxx' }],
 });
-
 
 // 字体尺寸
 conf.list.push({

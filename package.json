@@ -1,18 +1,15 @@
 {
-  "name": "style-compiler-for-uniapp",
-  "version": "1.0.10",
-  "description": "uniapp的样式编绎器",
+  "name": "style-componentized",
+  "version": "1.0.0",
+  "description": "基于scss的样式组合化编绎工具",
   "main": "index.js",
   "bin": {
     "run": "./bin/run.js"
   },
   "scripts": {},
   "keywords": [
-    "style-compiler"
+    "style-componentized"
   ],
   "author": "xiehaihong",
-  "license": "MIT",
-  "dependencies": {
-    "style-compiler-for-uniapp": "^1.0.10"
-  }
+  "license": "MIT"
 }

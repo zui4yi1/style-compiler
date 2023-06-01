@@ -1,15 +1,18 @@
 {
-  "name": "style-componentized",
+  "name": "style-unit-compiler",
   "version": "1.0.0",
-  "description": "基于scss的样式组合化编绎工具",
+  "description": "样式组件编绎器",
   "main": "index.js",
   "bin": {
     "run": "./bin/run.js"
   },
   "scripts": {},
   "keywords": [
-    "style-componentized"
+    "style-unit-compiler"
   ],
   "author": "xiehaihong",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "progress": "^2.0.3"
+  }
 }

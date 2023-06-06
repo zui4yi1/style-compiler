@@ -8,7 +8,11 @@
   },
   "scripts": {},
   "keywords": [
-    "style-unit-compiler"
+    "style-unit-compiler",
+    "style-component",
+    "style-components",
+    "style-lib",
+    "style-library"
   ],
   "author": "xiehaihong",
   "license": "MIT",

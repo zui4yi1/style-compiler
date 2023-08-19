@@ -1,6 +1,6 @@
 {
   "name": "style-component-compiler",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "样式组件编绎器, 一行命令生成样式组件库，包含通用样式与原子样式。从此写前端不再需要写样式了。",
   "main": "index.js",
   "bin": {

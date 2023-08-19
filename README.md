@@ -15,7 +15,8 @@
 
 #### How
 
-直接使用 npx 安装, 不用`npm -i`
+先全局安装, 再使用 npx 安装:
+`npm i -g style-component-compiler`
 
 1. `cd <your-config-root>`切换到配置文件的根目录
 2. 准备样式的 js 配置文件，可参考本包的`example/demo.js`
@@ -24,6 +25,7 @@
 以本包为例:
 
 ```ts
+npm i -g style-component-compiler
 cd example
 npx style-component-compiler demo
 

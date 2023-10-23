@@ -1,5 +1,3 @@
-var fs = require("fs");
-var path = require("path");
 var fse = require("fs-extra");
 
 const { toCamel } = require("../../tools/common");

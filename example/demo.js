@@ -1,4 +1,7 @@
-// 原子样式在此配置
+/**
+ * 配置样本
+ * @description 当前的脚本主要面向移动端, 当然web端也可以使用
+ */
 
 /**
  * @typedef {Object} IOption
@@ -20,6 +23,7 @@
 /**
  * @typedef {Object} IConf
  * @property {string} theme 主题类型, 作为主题的前缀, 默认ui
+ * @property {string} unit 单位, px或rpx,upx
  * @property {boolean} isMutilTheme 是否多主题, 默认false. 若为多主题, 则使用时务必仅使用js来使用样式组件
  * @property {Array<IProps>} list 配置列表
  */
@@ -29,6 +33,7 @@
  */
 const conf = {
   theme: "ui",
+  unit: "rpx",
   isMutilTheme: false,
   list: [],
 };

@@ -1,6 +1,6 @@
 {
   "name": "style-component-compiler",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "样式组件编绎器, 一行命令生成样式组件库，包含通用样式与原子样式。从此写前端不再需要写样式了。",
   "main": "index.js",
   "bin": {
@@ -20,9 +20,9 @@
   ],
   "author": "xiehaihong",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "fs-extra": "^11.1.1",
     "progress": "^2.0.3",
-    "sass": "^1.69.4"
+    "sass": "^1.64.1"
   }
 }

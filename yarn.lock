@@ -130,7 +130,7 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-sass@^1.69.4:
+sass@^1.64.1:
   version "1.69.4"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.4.tgz#10c735f55e3ea0b7742c6efa940bce30e07fbca2"
   integrity sha512-+qEreVhqAy8o++aQfCJwp0sklr2xyEzkm9Pp/Igu9wNPoe7EZEQ8X/MBvvXggI2ql607cxKg/RKOwDj6pp2XDA==
